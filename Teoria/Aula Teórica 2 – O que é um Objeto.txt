@@ -1,0 +1,27 @@
+Aula Teórica 2 – O que é um Objeto?
+
+Definição de Objeto:
+
+Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por suas características, comportamentos ou estado atual. Importante lembrar que todo Objeto é proveniente de uma Classe, quando isso ocorre, gerar um Objeto através de uma Classe, chamamos de Instanciar, sendo desta forma:
+
+objeto = new MinhaClasse;
+
+objeto.atributo = 'novo valor';
+
+objeto.estado = true;
+
+objeto.método()
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Oque é uma Classe?
+
+Define os Atributo e Métodos  comuns que serão compartilhados por um objeto.
+
+Uma Classe precisa responder a três perguntas: Coisas que eu tenho (ATRIBUTOS) , Coisas que eu faço (MÉTODOS) e Como eu estou agora (ESTADO)?
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Abstração
+
+Quando filtramos os atributos que são realente nessessarios para compor um objeto.
