@@ -18,7 +18,7 @@ Oque é uma Classe?
 
 Define os Atributo e Métodos  comuns que serão compartilhados por um objeto.
 
-Uma Classe precisa responder a três perguntas: Coisas que eu tenho (ATRIBUTOS) , Coisas que eu faço (MÉTODOS) e Como eu estou agora (ESTADO)?
+Uma Classe precisa responder a três perguntas: Coisas que eu tenho (ATRIBUTOS) , Coisas que eu faço (MÉTODOS) e Como eu estou agora (ESTADO)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
