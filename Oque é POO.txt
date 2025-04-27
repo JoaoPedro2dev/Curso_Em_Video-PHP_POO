@@ -1,0 +1,25 @@
+Oque é POO (Programação Orientada a Objeto)
+
+Criado por Alan kay em 1970, que dizia que as maquinas deveriam funcionar como seres vivos, com cada "célula" interagindo entre ela mas funcionando de maneira autônoma, podendo até mesmo se agrupar para resolver outros problemas.
+
+Antigamente tínhamos Dados globais que eram tratados por Procedimentos, mas isso levava mais tempo pois cada procedimento precisava filtrar os dados que lhe eram úteis. Alan kay criou o conceito de objeto, criando assim uma cadeia de: Dados De Objetos que eram tratados por Métodos, assim sendo mais rápido e organizado pois cada Método utilizava Dados pertinentes ao objeto em questão. Neste conceito podemos criar mais de um Objeto e mais de um Método, podendo também compartilhar dados entre os objetos.
+
+Linguagens POO
+
+C++
+Java
+PHP
+Python
+Ruby
+C# 
+
+Vantagens
+
+siglas facilitadas COMERNada
+
+C -> Confiável: O isolamento entre as partes gera um software seguro. Ao alterar uma parte não afeta as outras.
+O => Oportuno: Ao dividir tudo em partes, podemos desenvolver várias delas em paralelo.
+M -> Manutenível: Atualizar um software se torna mais fácil, uma pequena modificação vai beneficiar todas as partes do software que utilizarem aquele objeto
+E -> Extensível: Um software não é algo estático, deve se expandir para permanecer útil
+R -> Reutilizável: Podemos utilizar Objetos de um sistema atual em outros projetos futuros.
+N -> Natural: Mais fácil de aprender, Você se preocupa mais nas funcionalidades doque nos detalhes da implementação.
