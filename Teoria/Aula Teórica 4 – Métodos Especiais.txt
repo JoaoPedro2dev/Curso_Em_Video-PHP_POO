@@ -1,0 +1,24 @@
+Aula Teórica 4 – Métodos Especiais
+
+Podemos nomear um Método como quisermos na sua criação, mas alguns Métodos especiais seguem um padrão.
+
+Padrões
+
+Métodos Acessores (Getters)
+
+São métodos que dão acesso a uma determinada coisa, que são importantes para que ninguém tenha acesso direto a dados importantes do sistema, mas apenas aos necessários e permitidos.
+
+
+Métodos Modificadores (Setters)
+
+Métodos que adicionam/modificam dados. O método setter recebe um parâmetro na maioria das vezes e adiciona ou altera os dados conforme for correspondente ao parâmetro passado.
+
+
+Método Construtor (construct)
+
+Executa um método automaticamente sem nenhum pedido, para que se torne algo padrão, podendo até mesmo receber parâmetros a partir de um instanciamento.
+
+
+Boas práticas
+
+Normalmente todo atributo possui um Método getter e um Método setter, e toda classe possui um cosntructor.
