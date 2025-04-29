@@ -1,0 +1,32 @@
+Aula Teórica 3 – O que é Visibilidade em um Objeto?
+
+Modificadores De Visibilidade
+
+Indicam o nível de acesso aos componentes internos de uma classe, interferindo diretamente no uso de um objeto.
+
+Os níveis podem ser representados pelos símbolos:
+
++ = Público | ex: Um orelhão público.
+
+- = Privado | ex: Um celular comum.
+
+# = Protegido | ex: Um telefone de casa.
+
+Definições de acesso
+
++ Público: A classe atual e todas as outras classes.
+
+- Privado: Apenas a classe atual
+
+# Protegido: A classe atual e todas as suas sub-classes.
+
+Sintaxe
+
+A visibilidade de um Atributo e método é sempre definido antes da sua inicialização dentro da classe.
+
+ex: class Classe{
+	public $atributo1;
+
+	public metodo1(){}
+    }
+
