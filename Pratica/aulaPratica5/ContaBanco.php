@@ -1,26 +1,27 @@
 <?php 
     class  ContaBanco{
+        //Atributos
         public $numConta;
         protected $tipo;
         private $dono;
         private $saldo;
         private $status;
 
-        public function __construct($nome)
+        public function __construct()
         {
             $this->status = false;
             $this->saldo = 0;
-            $this->dono = $nome;
         }
 
+        //Metodos
         function abrirConta($valor){
             $this->setTipo($valor);
             $this->setStatus(true);
 
             if($this->getTipo() == "corrente"){
-                $this -> setSaldo($this->getSaldo() + 50);
+                $this -> setSaldo(50);
             }else if($this->getTipo() == "poupanca"){
-                $this ->setSaldo($this->getSaldo() + 150);
+                $this ->setSaldo(150);
             }else{
                 return "Erro: tipo de conta não reconhecido";
             }
@@ -37,28 +38,32 @@
                 $this->setStatus(false);
                 return "Conta fechada com sucesso";
             }else if($this->getSaldo() > 0){
-                return "Você não pode fechar uma conta com o saldo maior que 0";
+                return "Erro: Você não pode fechar uma conta com o saldo maior que 0";
             }else{
-                return "Você não pode fechar uma conta com o saldo devedor";
+                return "Erro: Você não pode fechar uma conta com o saldo devedor";
             }
         }
 
         public function depositar($valor){
-            if($this->getStatus() == true){
+            if($this->getStatus()){
                 $this->setSaldo($this->getSaldo() + $valor);
-                return "Deposito de R$$valor realizado com sucesso";
+                return "Deposito de R$$valor realizado com sucesso na conta de {$this->getDono()}";
             }else{
-                return "Erro: conta fechada";
+                return "Erro: Não pode depositar na conta fechada";
             }
         }
 
         public function sacar($valor){
+            if(!$this->getStatus()){
+                return("Erro: Não pode sacar de uma conta fechada");
+            }
+
             if($this->getSaldo() >= $valor){
                 $this->setSaldo($this->getSaldo() - $valor);
-                return "Saque de R$$valor realizado com sucesso";
-            }else{
-                return "Saldo insuficiente";
+                return "Saque de R$$valor realizado com sucesso na conta de {$this->getDono()}";
             }
+
+            return "Erro: Saldo insuficiente";
         }
 
         public function pagarMensal(){
@@ -70,15 +75,19 @@
 
                 if($this->getSaldo() >= 12){
                     $this->setSaldo($this->getSaldo() - 12);
-                    return "Mensalidade de R$12,00 cobrada";
+                    return "Mensalidade de R$12,00 debitada na conta de {$this->getDono()}";
                 }
+                
+                return "Erro: Não pode cobrar de uma conta com R$0,00";
 
             }else if($this->getTipo() == "poupanca"){
 
                 if($this->getSaldo() >= 150){
                     $this->setSaldo($this -> getSaldo() - 20);
-                    return "Mensalidade de R$150,00 cobrada";
+                    return "Mensalidade de R$150,00 debitada na conta de {$this->getDono()}";
                 }
+
+                return "Erro: Não pode cobrar de uma conta com R$0,00";
 
             }else{
                 return "Erro: não reconhecido outro tipo de conta para cobranças";
