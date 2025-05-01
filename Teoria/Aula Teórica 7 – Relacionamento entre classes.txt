@@ -1,0 +1,42 @@
+Aula Teórica 7 – Relacionamento entre Classes
+
+Criando um exemplo teórico para uma futura atividade prática.
+
+A ideia consiste em um campeonato de lutas entre emojis.
+
+Classe Lutador
+
+//atributos
+-NOME
+-NACIONALIDADE
+-IDADE
+-ALTURA
+-PESO
+-CATEGORIA
+-VITORIAS
+-DERROTAS
+-EMPATES
+
+//métodos
++APRESENTAR()
++STATUS
++GANHARLUTA
++PERDERLUTA
++EMPATARLUTA
+
+Categorias
+
+PESO LEVE
+PESO MÉDIO
+PESO PESADO
+
+Classe luta
+//atributos
+-DESAFIADO
+-DESAFIANTE
+-ROUNDS
+-APROVADA
+
+//métodos
++MARCARLUTA()
++LUTAR()
