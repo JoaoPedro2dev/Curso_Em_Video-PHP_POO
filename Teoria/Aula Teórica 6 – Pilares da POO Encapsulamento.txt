@@ -1,0 +1,64 @@
+Aula Teórica 6 – Pilares da POO: Encapsulamento
+
+Na Programação Orientada a Objeto temos três pilares, que podem ser lembrados pela sigla EHP.
+
+E -> Encapsulamento
+
+H -> Herança
+
+P -> Polimorfismo
+
+Em alguns lugares podem ser ensinados quatro pilares, adicionando o A de Abstração, mas neste curso trataremos a Abstração como fazendo parte do pilar de Encapsulamento.
+
+-------------------------------------------------------------------------------
+
+Oque é o Encapsulamento:
+
+Utilizado para proteger e criar um padrão para o sistema, impedindo que o código seja prejudicado.
+
+Encapsulamento não é obrigatório em um código, mas é uma boa prática para produzir classes eficientes.
+
+Quais as vantagens do Encapsulamento?
+
+1->Torna mudanças invisíveis, tornando mais fácil e seguro a manutenção do código.
+
+2->Facilita a reutilização do código, aumentando a produtividade em produção e diminuindo o risco de bugs.
+
+3->Reduzir efeitos colaterais. Quando o sistema está bem encapsulado e padronizado, tanto o sistema quanto outros projetos que dependem dele estarão mais seguros contra falhas e bugs.
+
+Oque é encapsular?
+
+Ocultar partes independentes do sistema, permitindo construir partes invisíveis ao mundo exterior.
+
+Nos podemos interagir com uma capsula em POO, e até mesmo receber respostas, e para que isso possa ocorrer criamos uma Interface para este Objeto encapsulado.
+
+-------------------------------------------------------------------------------
+
+Oque é uma Interface?
+
+Lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com um objeto dessa classe.
+
+Quando utilizamos uma interface deixamos o sistema mais protegido e mais simples de usar.
+
+Normalmente a interface é um código separado assim como nossas Classes e Index.
+
+
+Uma Interface é parecido com um classe, mas a Interface não possui atributos, apenas métodos. Esses métodos são chamados de Métodos Abstratos e geralmente são públicos. eles não são criados na interface, apenas definidos nela.
+
+Como definir uma Interface?
+
+Primeiro acionamos o nome da interface.
+
+Depois adicionamos os seus métodos abstratos, adicionando sua visibilidade e seu nome, na interface não criaremos os código para esses métodos.
+
+E por fim implementamos a nossa interface no código da nossa classe.
+
+-------------------------------------------------------------------------------
+
+Como encapsular?
+
+Quando vamos encapsular uma classe, é importante deixar todos os atributos como Privados ou até mesmo Protegidos, mas não podem ser Públicos, pois estamos protegendo esses atributos da área externa.
+
+Após isso adicionamos na nossa classe os métodos especiais.
+
+Depois adicionamos todos o métodos da interface dentro da nossa classe, e agora dentro da classe criamos os códigos destes métodos.
