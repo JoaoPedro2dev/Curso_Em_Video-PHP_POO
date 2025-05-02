@@ -1,0 +1,7 @@
+Aula Teórica 8 – Relacionamento de Agregação
+
+Em POO existem vários tipos de relacionamentos, nesta aula trataremos sobre a Agregação. A Agregação é conhecida como ligação do tipo "Tem 1", exemplo: uma Classe A, tem 1 da Classe B.
+
+Em POO podemos criar "tipos abstratos de dados" e definir nossas classes em determinados tipos, isso pode ser usado para definir o tipo de um atributo quando duas ou mais classes se relacionam, que também podem ser usados como tipo de parâmetros para um método.
+
+Para relacionar duas classe no tipo agregação, primeiro definimos os objetos para as classes que vão se relacionar, e depois passamos um objeto como parâmetro para a classe que depende desse objeto, Após isso chamamos os métodos da nossa classe que esta relacionada a classe do nosso objeto.
