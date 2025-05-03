@@ -8,16 +8,21 @@
 
         //Métodos
         public function marcarLuta($l1, $l2){
-            if($l1->getCategoria() != $l2->getCategoria()){
-                return "Erro: Não pode ocorrer luta de categorias diferentes";
-            }
-
             if($l1->getNome() == $l2->getNome()){
                 return "Erro: Um lutador não pode lutar com ele mesmo";
+                $this->setAprovada(false);
+                $this->setDesafiado(null);
+                $this->setDesafiante(null);
             }
 
-            $this->setAprovada(true);
+            if($l1->getCategoria() != $l2->getCategoria()){
+                return "Erro: Não pode ocorrer luta de categorias diferentes";
+                $this->setAprovada(false);
+                $this->setDesafiado(null);
+                $this->setDesafiante(null);
+            }
             
+            $this->setAprovada(true);
             $this->setDesafiado($l1);
             $this->setDesafiante($l2);
 

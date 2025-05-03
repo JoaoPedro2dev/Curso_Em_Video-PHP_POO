@@ -32,7 +32,8 @@
         }
 
         public function status(){
-            echo "{$this->getIdade()} anos,
+            echo "{$this->getNome()},
+            {$this->getIdade()} anos,
             medindo {$this->getAltura()}m de altura,
             pesando {$this->getPeso()}Kg,
             Histórico: {$this->getVitorias()} Vitórias, {$this->getDerrotas()} Derrotas e {$this->getEmpates()} Empates <br><br>";
