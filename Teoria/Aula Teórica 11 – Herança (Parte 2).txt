@@ -1,0 +1,60 @@
+Aula Teórica 11 – Herança (Parte 2)
+
+Navegação pela herança ou Árvore de Herança:
+
+Quando temos uma classe que não tem Progenitora/Mãe e tem suas subclasses/filhas, chamamos esta classe de Raiz da nossa árvore de herança. Por outro lado, quando nesta Árvore de Herança temos Subclasses que não possuem filhas, chamamos elas de Folhas.
+__________________________________________________________________________________________________________________________
+
+Conceitos de Descendentes e Ancestrais:
+
+Quando temos uma Subclasse filha de uma Superclasse, dizemos que a Subclasse é descendente da Super classe, se essa subclasse ainda é filha de outra, todas as classes acima dela são consideradas ancestrais dela, e ela é descendente de todas essas classes.
+ 
+Exemplo:
+
+A
+├── AA
+│   ├── AAA
+│   └── AAB
+├── AB
+│   ├── ABA
+│   └── ABB
+└── AC
+    └── ACA
+        ├── ACAA
+        └── ACAB
+
+AA é descendente de A,
+AAA é descendente de AA e de A,
+A é Ancestral de AAA, mas AAA é descendente de AA pois é sua filha. 
+__________________________________________________________________________________________________________________________
+
+Lendo a Árvore de herança:
+
+Quando lemos a árvore de cima para baixo chamamos de "Especialização", e quando lemos de baixo para cima chamamos de "Generalização".
+__________________________________________________________________________________________________________________________
+
+Tipos de herança:
+
+Existem vários tipos de Herança. mas no curso vamos considerar apenas dois tipos.
+
+1°Herança de implementação
+ quando a subclasse tem apenas os métodos e atributos herdados, sem adicionar outros a mais.
+ serve para implementar uma calsse abstrata.
+
+2°Herança para diferença
+ quando a subclasse alem dos métodos e atributos herdados adciona novas implementações.
+__________________________________________________________________________________________________________________________
+
+Conceito de Abstrato e Final:
+
+Classe Abstrada
+Não pode ser istanciada, ela só serve como progenitora.
+
+Método Abstrato
+Declarado, mas não pode ser implementado na progenitora ou fora de uma classe abstrada ou interface.
+
+Classe Final
+Não pode ser herdada por outra classe, é obrigatporiamente folha.
+
+Método final
+Não pode ser sobreescrito por suas subclasses, tem que ser obrigatóriamente herdado.
