@@ -1,0 +1,5 @@
+Aula Teórica 10 – Herança (Parte 1)
+
+Oque é Herança em POO:
+
+Permite criar uma nova classe baseada em característica de uma classe já existente, evitando muito código repetido e acelerando e melhorando o processo de criação e organização, uma Sub-classe herda todos os atributos e métodos da sua classe mãe, mas também pode adicionar novos atributos e métodos a si mesmo, mas sem modificar a classe mãe.
