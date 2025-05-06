@@ -1,0 +1,29 @@
+Aula Teórica 12 – Conceito Polimorfismo (Parte 1)
+
+POLI = MUITAS
+
+MORFO = FORMAS
+
+POLIMORFISMO = MUITAS FORMAS DE SE FAZER ALGO
+
+Definição conceitual:
+
+Permite que o mesmo nome represente vários comportamentos diferentes.
+______________________________________________________________________
+
+Assinatura do método:
+
+Quantidade e os tipos dos parâmetros são oque definem a assinatura de um método.
+
+exemplo: se um método recebe apenas dois parâmetros do tipo int, todos os outros métodos que receberem algo diferente de 2 parâmetros do tipo int, tem uma assinatura diferente.
+______________________________________________________________________
+
+Tipos de Polimorfismo:
+
+Existem vários tipos de Polimorfismo, mas neste curso abordaremos apenas os 2 principais.
+
+1°Polimofismo de Sobreposição -> Reescrever um método herdado de uma classe dentro de uma subclasse usando a mesma assinatura.
+
+2°Sobrecarga->
+
+
