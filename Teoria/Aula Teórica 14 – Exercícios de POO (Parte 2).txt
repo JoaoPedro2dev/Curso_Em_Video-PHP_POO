@@ -1,0 +1,66 @@
+Aula Teórica 14 – Exercícios de POO (Parte 2)
+
+Exercícios Teóricos
+
+Oferecimento do Sistema Educando de Ensinos
+_______________________________________________________________________
+
+Questão 1
+
+Resposta: A) um construtor pode ter um nome diferente de sua classe / ERRADO. CORRETA (B)
+
+_______________________________________________________________________
+
+Questão 2
+
+Resposta: B) herança / CORRETO
+
+_______________________________________________________________________
+
+Questão 3
+
+Resposta: B) DecimalFormat é descendente de Format / CORRETO
+
+_______________________________________________________________________
+
+Questão 4
+
+Resposta: C) uma classe abstrata / CORRETO
+
+_______________________________________________________________________
+
+Questão 5
+
+Resposta: A) declarado, mas não implementado / CORRETO
+
+_______________________________________________________________________
+
+Questão 6
+
+Resposta: B) V-F-V / CORRETO
+
+_______________________________________________________________________
+
+Questão 7
+
+Resposta: C) a ClasseA não poderá ter subclasses / CORRETO
+
+_______________________________________________________________________
+
+Questão 8
+
+Resposta: D) Utilizar acesso protected oferece um nível intermediário entre public e private / CORRETO
+
+_______________________________________________________________________
+
+Questão 9
+
+Resposta: D) -> / CORRETO
+
+_______________________________________________________________________
+
+Questão 10
+
+Resposta: A) Associação / ERRADO. CORRETO (B)
+
+
