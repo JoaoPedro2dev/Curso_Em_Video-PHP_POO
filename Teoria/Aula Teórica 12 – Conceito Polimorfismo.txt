@@ -22,8 +22,10 @@ Tipos de Polimorfismo:
 
 Existem vários tipos de Polimorfismo, mas neste curso abordaremos apenas os 2 principais.
 
-1°Polimofismo de Sobreposição -> Reescrever um método herdado de uma classe dentro de uma subclasse usando a mesma assinatura.
+1°Polimofismo de Sobreposição -> Reescrever um método herdado de uma classe dentro de uma subclasse usando a mesma assinatura. e só pode ser usada uma vez por classe.
 
-2°Sobrecarga->
+2°Sobrecarga -> Escrever um método varias vezes dentro da mesma classe alterando a assinatura do método.
+
+OBS: o PHP não suporta o Polimorfismo de Sobrecarga normal.
 
 
