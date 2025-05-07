@@ -26,6 +26,6 @@ Existem vários tipos de Polimorfismo, mas neste curso abordaremos apenas os 2 p
 
 2°Sobrecarga -> Escrever um método varias vezes dentro da mesma classe alterando a assinatura do método.
 
-OBS: o PHP não suporta o Polimorfismo de Sobrecarga normal.
+OBS: o PHP não suporta o Polimorfismo de Sobrecarga normal. então caso precise usar sobrecarga, faça apenas métodos com nomenclaturas diferentes;
 
 
