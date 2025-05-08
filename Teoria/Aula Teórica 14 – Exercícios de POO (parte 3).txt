@@ -43,10 +43,22 @@ _______________________________________________________________________
 
 Questão 7
 
-Resposta: A) Método tarefa ():inteiro / ERRADO. CORRETA (C)
+Resposta: A) Método tarefa ():inteiro / ERRADO. CORRETO (C)
 
 _______________________________________________________________________
 
 Questão 8
 
-Resposta:
+Resposta: A) Método tarefa (x, y: inteiro):Logico / CORRETO
+
+_______________________________________________________________________
+
+Questão 9
+
+Resposta: B) Classe D estende B / CORRETO
+
+_______________________________________________________________________
+
+Questão 10
+
+Resposta: A) X() / ERRADO. CORRETO (D)
