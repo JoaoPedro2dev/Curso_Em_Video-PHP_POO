@@ -1,0 +1,52 @@
+Aula Teórica 14 – Exercícios de POO (Parte 3)
+
+Exercícios Teóricos
+
+Oferecimento do Sistema Educando de Ensinos
+_______________________________________________________________________
+
+Questão 1
+
+Resposta: C) polimorfismo / CORRETO 
+
+_______________________________________________________________________
+
+Questão 2
+
+Resposta: A) sobrecarga / CORRETO
+
+_______________________________________________________________________
+
+Questão 3
+
+Resposta: C) 4-1-2-3 / CORRETO
+
+_______________________________________________________________________
+
+Questão 4
+
+Resposta: D) V-F-V-F / CORRETO
+
+_______________________________________________________________________
+
+Questão 5
+
+Resposta: B) nome-sobrecarga-método-número-tipo / CORRETO.
+
+_______________________________________________________________________
+
+Questão 6
+
+Resposta: D) 1-2-5 / CORRETO
+
+_______________________________________________________________________
+
+Questão 7
+
+Resposta: A) Método tarefa ():inteiro / ERRADO. CORRETA (C)
+
+_______________________________________________________________________
+
+Questão 8
+
+Resposta:
