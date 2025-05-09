@@ -11,6 +11,7 @@
     <?php 
         require_once"./Video.php";
         require_once"./Gafanhoto.php";
+        require_once"./Visualizacao.php";
 
         $v[0] = new Video("Aula 1 de PHP");
         $v[1] = new Video("Aula 1 de HTML");
@@ -20,7 +21,13 @@
         $g[1] = new Gafanhoto("Pedro", 20, "M", "pedro");
         $g[2] = new Gafanhoto("Eduardo", 18, "M", "Edu");
 
-        var_dump($v, $g);
+        $vis[0] = new Visualizacao($g[0], $v[2]);
+        $vis[1] = new Visualizacao($g[0], $v[1]);
+        $vis[0]->avaliarPorc(85);
+        $vis[1]->avaliarNota(80);
+        // $vis[2] = new Visualizacao($g[1], $v[1]);
+
+        var_dump($vis);
     ?>
 </body>
 
